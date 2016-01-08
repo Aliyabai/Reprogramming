@@ -1,0 +1,1 @@
+/ifs1/ST_SINGLECELL/USER/yuqichao/tools/SOAPnuke1.5.0 filter -Q 2 -1 /ifs5/ST_COMG/USER/baiyali/RNA_editing/Reprogramming/raw_data/fa/SRR1107925_1.fastq.gz -o /ifs5/ST_COMG/USER/baiyali/RNA_editing/Reprogramming/data_process/SRR1107925/new/clean -C /ifs5/ST_COMG/USER/baiyali/RNA_editing/Reprogramming/data_process/SRR1107925/new/clean/SRR1107925_1.Clean.fq.gz
