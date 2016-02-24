@@ -1,7 +1,7 @@
 #!usr/bin/perl -w
 use strict;
 die "USAGE: perl $0 srrlist" if @ARGV < 1;
-my $pileupStat = "0.bin/pileup.stat.pl";
+my $pileupStat = "bin/pileup.stat.pl";
 my $dir = "/ifs5/ST_COMG/USER/baiyali/RNA_editing/Reprogramming/data_process/new.data.work/ADAR_motif";
 
 open IN, "$ARGV[0]" or die $!;
@@ -13,5 +13,5 @@ while(<IN>){
 }
 close OUT;
 
-###perl 0.bin/pileup.stat.pl pipeup/SRR1107924.pipeup > Stat/SRR1107924.pipeup.stat
+###perl bin/pileup.stat.pl pipeup/SRR1107924.pipeup > Stat/SRR1107924.pipeup.stat
 ###建STAT文件
